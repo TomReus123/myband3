@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+	<title>quarante Y très</title>
+	<link>http://19830.hosts.ma-cloud.nl/wamp/www/myband/</link>
+	<description>informatie website over 43</description>
+	
+	<item>
+	<title>Mijn eerste item</title>
+	<link>http://19830.hosts.ma-cloud.nl/wamp/www/myband/</link>
+	<description>Ook al een mooi plaatje.</description>
+	<pubdate>0000-00-00 00:00:00</pubdate>
+	</item>
+	
+	<item>
+	<title>Weer een titel</title>
+	<link>http://19830.hosts.ma-cloud.nl/wamp/www/myband/</link>
+	<description>Weer een titel</description>
+	<pubdate>0000-00-00 00:00:00</pubdate>
+	</item>
+	
+	<item>
+	<title>Aan het einde der Lange Laan</title>
+	<link>http://19830.hosts.ma-cloud.nl/wamp/www/myband/</link>
+	<description>Plotseling blafte een hond</description>
+	<pubdate>0000-00-00 00:00:00</pubdate>
+	</item>
+	
+	<item>
+	<title>Dit is een titel</title>
+	<link>http://19830.hosts.ma-cloud.nl/wamp/www/myband/</link>
+	<description>Een hele korte tekst.</description>
+	<pubdate>0000-00-00 00:00:00</pubdate>
+	</item>
+		
+</channel>
+</rss>

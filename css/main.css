@@ -4,17 +4,228 @@
  */
 
 body {
-	
-
+	color: white;
 }
 
 .desc {
-
 	background-color: #fff;
 	border: 1px solid #000;
 	position: absolute;
 	margin-left: 100px;
 	margin-top: -20px;
 	width: 200px;
-		
+}
+
+nav{
+	top: 0;
+	/* position: fixed; */
+	position: absolute;
+	width: 100%;
+	left: 0;
+}
+
+.menu_rechts{
+	float: right;
+	margin-top: 7px;
+}
+
+.menu_text{
+	margin-top: 11px;
+	position: relative;
+	font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	padding-left: 10px;
+    overflow: hidden;
+    background-color: black;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu_links a:hover {
+	background-color: gold;
+	transition: .4s;
+	color: black;
+}
+
+.menu_rechts a:hover {
+	opacity: 0.5;
+	transition: .4s;
+}
+
+.menu_text a {
+  text-decoration: none;
+  position: relative;
+}
+
+.menu_text a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid white;
+  transition: 0.4s;
+}
+
+.menu_text a:hover:after {
+  width: 100%;
+}
+
+.active{
+	color: gold;
+}
+
+.pagina{
+	height: 100vh;
+	background-image: url("../image/banner.jpg");
+	background-size: cover;
+	text-align: center;
+	color: white;
+	margin-left: -10px;
+	line-height: 50vh;
+	font-size: 60px;
+	font-family: Lato;
+	overflow: hidden;
+}
+
+.pagina span a{
+	text-decoration: none;
+	color: white;
+	cursor: pointer; 
+}
+.pagina span a:hover{
+	color: gold;
+	transition: .7s;
+}
+
+ html { 
+  background: url(../image/glas.jpg) no-repeat center center fixed; 
+  /* background: url(../image/banner3.jpg) no-repeat center center fixed;  */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.wrapper{
+	width: 100%;
+}
+.wrapper2{
+	width: 100%;
+}
+#terugKnop{
+	display: none;
+	position: fixed;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+	bottom: 0;
+	left: 0;
+	margin-left: 20px;
+	padding-top: -15px;
+	overflow: hidden;
+	border-bottom: 15px solid rgba(0,0,0,0.05);
+	margin-bottom: 20px;
+	font-size: 60px;
+	cursor: pointer;
+}
+#terugKnop:hover{
+	background-color: black;
+	border-color: black;
+	color: gold;
+	transition: .7s;
+}
+
+#berichten{
+	margin-top: 100vh;
+	font-family: sans-serif;
+	background-color: black;
+	color: white;
+	padding-left: 20px;
+	float: right;
+	width: 33%;
+	opacity: 0.9;
+}
+
+#berichten section h1{
+	color: gold;
+}
+
+#berichten2{
+	margin-top: 100vh;
+	font-family: sans-serif;
+	background-color: black;
+	color: white;
+	padding-left: 20px;
+	float: right;
+	width: 100%;
+	opacity: 0.9;
+}
+#berichten2 ol{
+	
+}
+#berichten2 section h1{
+	color: gold;
+}
+#berichten2 section h3{
+	color: gold;
+}
+
+.cocktail{
+	width: 31%;
+	float: left;
+	background-color: black;
+	margin-left: 10px;
+	height: 1200px;
+}
+.cocktail ol{
+	padding: 0;
+	list-style-type: none;
+}
+
+.next_page ul{
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.next_page ul li{
+	float: left;
+	font-size: 23px;
+	text-align: center;
+}
+.next_page ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 14px 16px;
+	display: block;
+	position: relative;
+}
+.next_page ul li a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid white;
+  transition: 0.4s;
+}
+.next_page ul li a:hover:after {
+  width: 100%;
 }
